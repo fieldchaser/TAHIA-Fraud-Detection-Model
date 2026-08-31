@@ -1,0 +1,12 @@
+# Core runtime dependencies for UniGAD-main.
+#
+# PyTorch install differs between Mac CPU and WSL GPU:
+# - Mac CPU: pip install torch
+# - WSL GPU: pip install torch --index-url https://download.pytorch.org/whl/cu121
+#
+# Install the rest with:
+#   pip install -r requirements.txt
+numpy>=1.23
+scipy>=1.9
+scikit-learn>=1.2
+matplotlib>=3.6

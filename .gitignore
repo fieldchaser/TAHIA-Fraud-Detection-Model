@@ -1,0 +1,65 @@
+# Operating-system and IDE metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+*.xml
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Training outputs and generated artifacts
+results/
+result/
+temp/
+logs/
+runs/
+outputs/
+checkpoints/
+pretrained_models/
+*.log
+*.pt
+*.pth
+*.ckpt
+*.bak
+*.tmp
+*.pid
+**/result_*.txt
+**/HeCo_*.pkl
+**/csv_export/
+
+# Archives and raw intermediate exports
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.mat
+*.csv
+
+# Local notebooks and generated figures
+.ipynb_checkpoints/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+

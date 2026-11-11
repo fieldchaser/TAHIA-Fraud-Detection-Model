@@ -1,4 +1,15 @@
-# TAHIA graph fraud detection — reproducibility release
+# TAHIA: Fraud Detection Model Through Global Structure and Local Substructure Feature Fusion
+
+**Xinzhi Wang, Tianyue Yin, Jiayu Guo, Nengjun Zhu, Hui Zhang**  
+Shanghai University · Tsinghua University  
+**IEEE International Conference on Data Mining (ICDM 2026)**
+
+### [Read the paper (PDF)](TAHIA_ICDM2026.pdf)
+
+TAHIA integrates global graph structure, scenario-specific meta-path semantics, and heterogeneous local context for fraud detection, with gated dynamic attribute patterns enhancing feature representations.
+
+## Code and data
+
 
 This repository contains the source code and processed datasets used to reproduce the TAHIA experiments and their comparison baselines. Generated logs, checkpoints, IDE settings, caches, compressed archives, and local machine configuration are intentionally excluded.
 
@@ -177,3 +188,4 @@ The packaged local adapters follow the experiment's stratified 1:9 train:test sp
 ## License and attribution
 
 TAHIA and repository-authored adapters are released under the Apache License 2.0. Third-party model code and datasets retain their original rights. Read `THIRD_PARTY_NOTICES.md` before redistribution. Several upstream research repositories did not publish a license file, so author permission must be confirmed before making a combined public release.
+
